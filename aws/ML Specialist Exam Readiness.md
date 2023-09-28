@@ -449,7 +449,7 @@ How to ingest the data into the data lakes
   - A confusion matrix is often used, which compares true values to predicted outcomes.It gives a high-level comparison of how predicted classes match up against actual classes
   - Accuracy:
     - It is the ratio of correct predictions to total number of predictions.
-    - $\frac{TF+TP}{Total}$
+    - $\frac{TN+TP}{Total}$
     - It is less effective when there are lots of true negatives (say, predicting fraud with little or no fraud data)
   - Precision:
     - It is the ratio of True Positives to total positive values.
